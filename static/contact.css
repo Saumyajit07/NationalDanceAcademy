@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Teko:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 12px;
+    font-size: 43px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4px;
+    color: #ef0404;
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: rgb(255 29 29);
+    font-weight: bold;
+}
+
+.container {
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container h1 {
+    font-family: 'Open Sans', sans-serif
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.myInput {
+    font-size: 16px;
+    width: 35%;
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid rgb(181, 5, 5);
+    border-radius: 19px;
+    outline: none;
+    text-align: center;
+}
+
+.btn {
+    padding: 6px 21px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background: #9e2d2df2;
+    outline: none;
+}

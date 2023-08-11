@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introsection 
+        div  National Dance Academy 
+        div.small "Express Yourself Through Movement"
+        div.small1 Crafting Your Passion Through Dancing.
+
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dancing is our game, learning is guaranteed
+            div.card-box
+                div.card-img
+                    img(src="/static/a1.png")
+                div.card-content
+                    p Dance is an art form where the body moves rhythmically, usually to the beat of the music. A simple movement such as walking, clapping in a pattern, to a particular rhythm, can be termed as dance. Dance allows you to express your emotions and communicate with the rest of the world.
+
+        div.card
+            h3 Gain Freedom With Movement.
+            div.card-box
+                div.card-img
+                    img(src="/static/a2.jpg")
+                div.card-content
+                    p Dance can be taken as a profession or a hobby by some. However, to become a professional dancer you’ll need a few years of practice. The toughest part of learning dance is keeping up with the rhythm. So you’ll have to find the right teacher who can help you improve the areas you find difficult while dancing.
+
+        div.card
+            h3 How You Dance Is How You Feel
+            div.card-box
+                div.card-img
+                    img(src="/static/a3.jpeg")
+
+                div.card-content
+                    p Indian classical dances are traditionally performed as an expressive drama-dance form of religious performance art, related to Vaishnavism, Shaivism, Shaktism, pan-Hindu Epics and the Vedic literature, or a folksy entertainment that includes story-telling from Sanskrit or regional language plays. 
+
+
+    section#sponsorsection 
+        h3 Our Sponsors
+        div#sponsors
+            img(src= "/static/s1.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/s2.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/s3.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/s4.png", alt= "Sponsor Image", class= "spImage")
